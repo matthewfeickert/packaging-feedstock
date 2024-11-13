@@ -9,6 +9,10 @@ Package license: Apache-2.0
 
 Summary: Core utilities for Python packages
 
+Development: https://github.com/pypa/packaging
+
+Documentation: https://packaging.pypa.io/
+
 Current build status
 ====================
 
@@ -144,5 +148,7 @@ Feedstock Maintainers
 =====================
 
 * [@jakirkham](https://github.com/jakirkham/)
+* [@matthewfeickert](https://github.com/matthewfeickert/)
 * [@nicoddemus](https://github.com/nicoddemus/)
+* [@ofek](https://github.com/ofek/)
 
