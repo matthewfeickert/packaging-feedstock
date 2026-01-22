@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "25.0"
+  version: "26.0"
   python_min: "3.8"
 
 package:
@@ -10,17 +10,17 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/packaging/packaging-${{ version }}.tar.gz
-  sha256: d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f
+  sha256: 00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python ${{ python_min }}.*
-    - flit-core >=3.3
+    - flit-core >=3.12
     - pip
   run:
     - python >=${{ python_min }}
